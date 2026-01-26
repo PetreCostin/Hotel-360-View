@@ -1,0 +1,22 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "hotel-360-view": {
+      "projectType": "application",
+      "i18n": {
+        "sourceLocale": "en-US"
+      },
+      "root": "",
+      "sourceRoot": "src",
+      "architect": {
+        "build": {
+          "options": {
+            "localize": true
+          }
+        }
+      }
+    }
+  }
+}
